@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelo</title>
+    <link rel="short icon" href="./assets/img/logo/icon_short.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="nav_header">
+        <div class="logo_header"><img src="./assets/img/logo/logo_white.png" alt="" class="logo_1">Travelo</div>
+
+        <div class="had_div">
+            <a href="#">акции</a>
+            <a href="#">поиск</a>
+            <a href="#">управление бронированием</a>
+        </div>
+
+
+
+
+
+        <div class="dropdown">
+            <button class="my_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/img/icon/burger.png" alt="" class="burger">
+            </button>
+            <ul class="dropdown-menu my_menu">
+              <li class="my_li"><a class="my_a" href="#">акции</a></li>
+              <li class="my_li"><a class="my_a" href="#">поиск</a></li>
+              <li class="my_li"><a class="my_a" href="#">управление бронированием</a></li>
+            </ul>
+          </div>  
+    </nav>
+    <header>
+
+
+
+        <div class="header_photo">
+
+            <div class="cloud1"></div>
+            <div class="cloud2"></div>
+
+            <div class="text_header">
+                <h1>турист-pro</h1>
+                <br>
+                <p>сделаем любой поход комфортным, удобным и безопасным<br>исполнить мечту просто!<br>8(800)555-33-10
+                </p>
+            </div>
+            <a href="#">
+                <button class="button_header">
+                    отзывы
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h1>алгоритм бронирования</h1>
+        <div class="algoritm_bron">
+
+            <div class="div_grid">
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon1.png" alt="" class="img_icon">
+                    <p>Выборы даты предпологаемого похода</p>
+                </section>
+
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon2.png" alt="" class="img_icon">
+                    <p>Указать количество участников и их уровень подготовки</p>
+                </section>
+
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon3.png" alt="" class="img_icon">
+                    <p>Выбрать желаемый регион для похода</p>
+                </section>
+
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon4.png" alt="" class="img_icon">
+                    <p>Зарезервировать конкретные зоны, которые будут включены в обязательное посещение</p>
+                </section>
+
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon5.png" alt="" class="img_icon">
+                    <p>Определить перечень дополнительных услуг</p>
+                </section>
+
+                <section class="sect_alg">
+                    <img src="./assets/img/icon/icon6.png" alt="" class="img_icon">
+                    <p>Оформить заказ</p>
+                </section>
+
+
+            </div>
+        </div>
+
+
+
+
+        <h1>поиск</h1>
+        <div class="search">
+            <div class="form">
+                <label for="combo-box">Регион</label>
+
+                <select id="combo-box">
+
+                    <option value="option1">Регион 1</option>
+                    <option value="option2">Регион 2</option>
+                    <option value="option3">Регион 3</option>
+
+                </select>
+
+                <label for="date-input">Дата похода</label>
+                <input type="date" id="date-input" name="date-input">
+
+
+                <label for="quantity-input">Количество участников</label>
+                <input type="number" id="quantity-input" name="quantity-input" min="1" max="30" step="1" value="1">
+
+                <label for="combo-box1">Уровень подготовки</label>
+
+                <select id="combo-box1">
+
+                    <option value="option1">Высокий</option>
+                    <option value="option2">Средний</option>
+                    <option value="option3">Низкий</option>
+
+                </select>
+
+                <button class="button1">
+                    поиск
+                </button>
+            </div>
+        </div>
+
+
+        <h1>акции</h1>
+        <div class="acsii">
+            <div id="carousel" class="carousel slide" data-bs-theme="dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/images/karosel1.jpg" class="kar" alt="" />
+
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptas
+                                omnis soluta. Eaque id autem odit quasi in facere minus rerum, harum, aliquam architecto
+                                nemo itaque ipsum exercitationem quas quis.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/images/karosel2.jpg" class="kar" alt="" />
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit
+                                neque quas enim sequi laborum quos velit porro eaque, doloremque, consequuntur quod
+                                consequatur provident. Suscipit cupiditate deserunt vero doloribus blanditiis!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/images/karosel3.jpg" class="kar" alt="" />
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+                                natus quidem dolorum consequatur optio a similique voluptatum beatae corrupti totam?
+                                Labore esse facilis cupiditate vero alias sit officiis, in ipsa?</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/images/karosel4.jpg" class="kar" alt="" />
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                similique aspernatur voluptas quam consequatur quo cumque eveniet quidem sint
+                                asperiores. Architecto veritatis rerum eaque excepturi vero deserunt accusamus?
+                                Excepturi, odio.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/images/karosel5.jpg" class="kar" alt="" />
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit dolore
+                                quisquam laboriosam architecto, qui corporis maiores, exercitationem voluptate
+                                temporibus voluptas veritatis, magni corrupti? Nihil quos placeat possimus libero?
+                                Quasi, illum.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/images/karosel6.jpg" class="kar" alt="" />
+                        <div class="carousel-caption text-start karos_text">
+                            <h2 class="karos_h">Lorem.</h2>
+                            <p class="karos_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+                                debitis libero eos ea aperiam! Illum dolorem velit quis placeat dolore ipsam eaque
+                                expedita porro. Blanditiis nisi mollitia doloribus repellat nulla?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 19L9 12L15 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <span class="visually-hidden">Назад</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 19L15 12L9 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <span class="visually-hidden">Вперед</span>
+                </button>
+            </div>
+        </div>
+
+
+        <h1>отзывы</h1>
+        <div class="otzuvy">
+            <section>
+                <img src="./assets/img/images/person1.jpg" alt="" class="otzuv_img">
+                <p class="otzuv_p">
+                    <b>Алексей, Камчатская обсать</b><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas placeat similique quod temporibus
+                    rerum eum quisquam suscipit. Tenetur earum facilis debitis id deserunt ipsa. Quidem corrupti iure
+                    molestiae voluptatum itaque.
+                </p>
+            </section>
+            <section>
+                <img src="./assets/img/images/person2.jpg" alt="" class="otzuv_img">
+                <p class="otzuv_p">
+                    <b>Иван, Республика Карелия</b><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat non, ex nam possimus velit nesciunt
+                    eaque molestias et quod, voluptates sint maxime ipsa sed soluta. Eum quas ad aliquam esse.
+                </p>
+            </section>
+            <section>
+                <img src="./assets/img/images/person3.jpg" alt="" class="otzuv_img">
+                <p class="otzuv_p">
+                    <b>Есения, Челябинская область</b><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorem perspiciatis perferendis eius
+                    quo voluptas quisquam rerum sed fugit, repudiandae modi. Accusamus atque sed eveniet blanditiis
+                    deserunt maxime neque voluptas?
+                </p>
+            </section>
+        </div>
+
+        <div class="podpiska">
+            <h1 class="podp">ПОДПИШИСЬ, ЧТОБЫ НЕ УПУСТИТЬ ВОЗМОЖНОСТЬ ПОСЕТИТЬ ЗАКРЫТУЮ АКЦИЮ</h1>
+            <div class="email">
+                <label for="email">Укажите Ваш Email</label>
+
+                <input type="email" name="email" id="email" placeholder="example@mail.com">
+            </div>
+            <button>Подписаться</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sect_foot">
+            <p>алгоритм бронирования</p>
+            <p>поиск</p>
+            <p>акции</p>
+            <p>отзывы</p>
+        </div>
+
+        <div class="sect_foot">
+            <p>возврат</p>
+        </div>
+
+        <div class="sect_foot">
+            <p><b>обратная связь</b></p>
+            <p>8(800)5555-33-10</p>
+            <div class="kontaktu">
+                <a href="#"><img src="./assets/img/icon/facebook.jpg" alt="" class="img_foot"></a>
+                <a href="#"><img src="./assets/img/icon/google.jpg" alt="" class="img_foot"></a>
+                <a href="#"><img src="./assets/img/icon/pinterest.jpg" alt="" class="img_foot"></a>
+                <a href="#"><img src="./assets/img/icon/twitter.jpg" alt="" class="img_foot"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
